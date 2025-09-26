@@ -3,6 +3,9 @@ date_default_timezone_set('America/New_York');
 define('API_KEY', 'VRIO API Key');
 define('API_URL', 'https://api.vrio.app');
 
+$alert_time_for_generate_repot = 3;
+$alert_time_for_send_repot = 9;
+
 $time_zone   = "EST";
 $query_table = 'tbl_report_query';
 $report_table = 'tbl_report_data';

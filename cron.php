@@ -8,6 +8,8 @@ use GuzzleHttp\Exception\ClientException;
 // echo date('Y-m-d H:i:s'); 
 $yesterday = date("Y-m-d", strtotime("-1 day"));
 
+$currentHour = (int)date('H'); 
+
 
 function formatReportHeader($data, $report_date_range) {
     $text = "📈 LTV Report Summary for Warp Speed (140)\n\n";
@@ -158,6 +160,11 @@ function sendMessage($chatId, $text, $apiURL, $enableLog) {
             ];
         }
     }
+}
+
+if ($currentHour < $alert_time_for_generate_repot) {
+    echo 'time not come';
+    exit;
 }
 
 $check = $conn->query("SELECT COUNT(*) as cnt FROM $report_table WHERE report_date = '$yesterday'");
@@ -428,6 +435,10 @@ else{
             }
         }
         else{
+            if ($currentHour < $alert_time_for_send_repot) {
+                echo 'alert time not come';
+                exit;
+            }
             echo "now send report to tg";
             $sql_tg = "SELECT *
             FROM $query_table
