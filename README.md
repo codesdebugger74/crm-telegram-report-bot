@@ -112,5 +112,6 @@ A PHP-based Telegram bot to generate regular report and send alerts. This bot su
 - Cron jobs can be set up using `cron.php` for automated report generate.  
 - All database interactions are handled via `db_connect.php`.  
 - Commands can be executed from allowed chats as defined in `allow_cmd_chat`.
+- Make sure we can delete README.md file from production.
 
 
