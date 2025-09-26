@@ -544,7 +544,7 @@ else{
 
                 $curl = curl_init();
                 curl_setopt_array($curl, array(
-                CURLOPT_URL => $$base_url.'url_check.php',
+                CURLOPT_URL => $base_url.'url_check.php',
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_ENCODING => '',
                 CURLOPT_MAXREDIRS => 10,
