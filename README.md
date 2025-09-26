@@ -14,8 +14,7 @@ A PHP-based Telegram bot to generate regular report and send alerts. This bot su
 ├── db_connect.php         # Database connection script
 ├── README.md              # Project documentation (this file)
 ├── setup.php              # Webhook setup script
-├── .gitignore             # Ignore upload files to repo
-└── url_check.php          # URL monitoring script
+└── gitignore.php          # Ignore upload files to repo
 ```
 
 ---
