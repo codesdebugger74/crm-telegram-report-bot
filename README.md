@@ -91,7 +91,7 @@ A PHP-based Telegram bot to generate regular report and send alerts. This bot su
    Add your chat IDs to `config.php`:
    ```php
    $report_chat_id = 1234567890;     // Chat to receive regular reports
-   $allow_cmd_chat = 1234567890;     // Chat allowed to send commands
+   $allow_cmd_chat = [1234567890];     // Chat allowed to send commands
    ```
 
 7. **Test Bot Commands**  
