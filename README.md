@@ -27,7 +27,7 @@ A PHP-based Telegram bot to generate regular report and send alerts. This bot su
 | Setup Webhook | ![Webhook Setup](https://i.postimg.cc/KjgFMzcr/setup-webhook.png) |
 | Chat ID | ![Chat ID](https://i.postimg.cc/3wSdjkhB/chat-id.png) |
 | Bot Commands | ![Bot Commands](https://i.postimg.cc/15q5gW4H/bot-commands.png) |
-| LTV Report | ![LTV Report](https://i.postimg.cc/KzCjVCR5/ltv-report.png) |
+| LTV Report | ![LTV Report](https://i.postimg.cc/tJHyFbsc/liv-new-report.png) |
 | Sales Report | ![Sales Report](https://i.postimg.cc/7Y8bN8vY/sales-report.png) |
 
 ---
